@@ -50,3 +50,27 @@ body {
   font-weight: 700;
   padding-block: 1rem;
 }
+
+.average__wrapper-circle {
+  width: 140px;
+  height: 140px;
+  aspect-ratio: 1/1;
+  margin: 1rem auto;
+
+  background: linear-gradient(180deg, var(--violet-blue-circ-color) 0%, var(--persian-blue-circ-color) 100%);
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.average__wrapper-circle > span {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.average__wrapper-circle > p {
+  color: var(--light-lavender);
+  font-weight: 500;
+}
