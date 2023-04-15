@@ -157,11 +157,15 @@ body {
   border: none;
   font-size: 18px;
   font-weight: 500;
-  background-color: var(--dark-gray-blue);
+  background: var(--dark-gray-blue);
   padding: .7rem 2rem;
   border-radius: 50px;
   margin-top: 1rem;
   margin-bottom: .5rem;
+}
+
+.data__wrapper button:hover {
+  background: linear-gradient(180deg, var(--slate-blue-bg-color) 0%, var(--royal-blue-bg-color) 100%);
 }
 
 @media screen and (min-width: 768px) {
