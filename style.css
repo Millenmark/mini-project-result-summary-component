@@ -88,3 +88,23 @@ body {
   padding-inline: 2.5rem;
   padding-bottom: 2.5rem;
 }
+
+.data__wrapper {
+  padding: 1.5rem 2rem;
+}
+
+.data__wrapper h3 {
+  color: var(--dark-gray-blue);
+}
+
+.data__wrapper-result__item {
+  background: var(--pale-blue);
+  margin-block: 1.25rem;
+
+  display: flex;
+}
+
+.data__wrapper-result__item p {
+  font-size: 17px;
+  font-weight: 500;
+}
