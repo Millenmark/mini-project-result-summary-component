@@ -15,5 +15,4 @@ fetch('data.json')
       `;
       myDataElement.appendChild(itemElement);
     });
-
   });
