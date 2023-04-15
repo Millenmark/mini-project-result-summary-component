@@ -100,8 +100,15 @@ body {
 .data__wrapper-result__item {
   background: var(--pale-blue);
   margin-block: 1.25rem;
+  padding: 1rem;
 
   display: flex;
+  justify-content: space-between;
+}
+
+.data__wrapper-result__item div {
+  display: flex;
+  gap: 1rem;
 }
 
 .data__wrapper-result__item p {
