@@ -42,6 +42,7 @@ body {
   color: var(--white);
   background: linear-gradient(180deg, var(--slate-blue-bg-color) 0%, var(--royal-blue-bg-color) 100%);
   text-align: center;
+  border-radius: 0 0 35px 35px;
 }
 
 .average__wrapper h1 {
@@ -49,6 +50,10 @@ body {
   font-size: 18px;
   font-weight: 700;
   padding-block: 1rem;
+}
+
+.average__wrapper p {
+  color: var(--light-lavender);
 }
 
 .average__wrapper-circle {
@@ -71,6 +76,15 @@ body {
 }
 
 .average__wrapper-circle > p {
-  color: var(--light-lavender);
+  font-weight: 700;
+}
+
+.average__wrapper-message > h2 {
+  margin-bottom: 1rem;
+}
+
+.average__wrapper-message > p {
   font-weight: 500;
+  padding-inline: 2.5rem;
+  padding-bottom: 2.5rem;
 }
