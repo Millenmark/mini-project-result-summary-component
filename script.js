@@ -11,7 +11,7 @@ fetch('data.json')
           <img src="${item.icon}" alt="${item.name} icon"/>
           <p>${item.category}</p>
         </div>
-        <p>${item.score} / 100</p>
+        <p><span>${item.score}</span> / 100</p>
       `;
       myDataElement.appendChild(itemElement);
     });
