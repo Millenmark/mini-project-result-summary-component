@@ -95,6 +95,9 @@ body {
 
 .data__wrapper {
   padding: 1.5rem 1rem;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .data__wrapper h3 {
@@ -212,11 +215,5 @@ body {
 
   .average__wrapper-message > p {
     padding-bottom: 0;
-  }
-
-  .data__wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
   }
 }
